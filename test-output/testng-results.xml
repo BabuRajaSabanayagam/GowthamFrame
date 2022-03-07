@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51863" started-at="2022-03-07T05:55:25Z" finished-at="2022-03-07T05:56:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51863" started-at="2022-03-07T05:55:25Z" finished-at="2022-03-07T05:56:17Z">
+      <class name="org.trest.A">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:org.trest.A@2286778]" name="beforeclass" is-config="true" duration-ms="40134" started-at="2022-03-07T05:55:25Z" finished-at="2022-03-07T05:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.trest.A@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-07T05:56:05Z" finished-at="2022-03-07T05:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.trest.A@2286778]" name="tc0" duration-ms="4091" started-at="2022-03-07T05:56:05Z" finished-at="2022-03-07T05:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[babu123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.trest.A@2286778]" name="afterMethod" is-config="true" duration-ms="345" started-at="2022-03-07T05:56:09Z" finished-at="2022-03-07T05:56:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.trest.A.tc0(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.trest.A@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-07T05:56:10Z" finished-at="2022-03-07T05:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tc02()[pri:0, instance:org.trest.A@2286778]" name="tc02" duration-ms="3137" started-at="2022-03-07T05:56:10Z" finished-at="2022-03-07T05:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.trest.A@2286778]" name="afterMethod" is-config="true" duration-ms="180" started-at="2022-03-07T05:56:13Z" finished-at="2022-03-07T05:56:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.trest.A.tc02()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.trest.A@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-07T05:56:13Z" finished-at="2022-03-07T05:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tc03(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.trest.A@2286778]" name="tc03" duration-ms="3778" started-at="2022-03-07T05:56:13Z" finished-at="2022-03-07T05:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567898765432]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:org.trest.A@2286778]" name="afterMethod" is-config="true" duration-ms="109" started-at="2022-03-07T05:56:17Z" finished-at="2022-03-07T05:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.trest.A.tc03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.trest.A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

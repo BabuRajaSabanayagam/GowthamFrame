@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Add" value="Chennai"/>
+    <parameter name="cc" value="123"/>
+    <parameter name="FirstName" value="Babu"/>
+    <parameter name="txtuser" value="babu123456"/>
+    <parameter name="LastName" value="Babu1234"/>
+    <parameter name="txtpass" value="Babu1234"/>
+    <parameter name="CCno" value="1234567898765432"/>
+    <classes>
+      <class name="org.trest.A">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeclass"/>
+          <include name="tc0" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="tc03" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.trest.A -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
